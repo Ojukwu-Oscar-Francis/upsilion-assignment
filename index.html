@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *, body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        div#container {
+            margin: 0 auto;
+            background-color: rgb(181, 245, 236);
+            padding: 20px 30px;
+            width: 800px;
+        }
+
+        @media screen and (max-width: 500px) {
+            div#container {
+                width: 100%;
+                padding: 20px 30px;
+            } 
+        }
+
+        div.header-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        div#name h1,
+        div#name h4 {
+            font-weight: 600;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        @media screen and (max-width: 500px) {
+            h1#my-name {
+                font-size: 25px;
+            }   
+        }
+
+
+        div.header-contents img {
+            height: 100px;
+            width: auto;
+            border-radius: ;
+        }
+        h3.title-heading {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="header-container">
+                <div class="header-contents" id="name"> 
+                    <h1 id="my-name">Ojukwu Oscar Francis</h1>
+                    <h4>Programmer</h4>
+                </div>
+
+                <div class="header-contents image">
+                    <img src="./images/picture.jpeg" alt="profile picture">
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div>
+                <div>
+                    <h3 class="title-heading">Objectives:</h3>
+                    <p>To be a sucessful programmer and help companies around the world achive a good online presence</p>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Background:</h3>
+                    <ul>
+                        <li>Nursery Education: Children Evangelism ministry (2005--2007)</li>
+                        <li>Primary Education: Saint Mary's catholic school (2007--2013)</li>
+                        <li>Secondary Education: Holy Ghost College Owerri (2013--2019)</li>
+                        <li>Tetiary Education: Godfrey Okoye University,Emene,Enugu(2020--2024)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Skill set:</h3>
+                    <ol>
+                        <li>I am a skilful footballer</li>
+                        <li>I am a bitcoin(BTC) analyst </li>
+                        <li>I am a frontend Developer</li>
+                        <li>I have the knowledge of graphics designer </li>
+                    </ol>      
+                </div>
+
+                <div>
+                    <h3 class="title-heading">Prospective Project:</h3>
+                    <ol>
+                        <li>Creating a succesful football team that will play in the english premier league</li>
+                        <li>Creating a bitcoin investment platform where users can earn profit by investing thier crypto currency</li>
+                        <li>Creating a learning platform where users can learn how to code and program</li>
+                    </ol>
+                </div>
+            </div>
+        </main> 
+    </div>
+
+</body>
+</html>
